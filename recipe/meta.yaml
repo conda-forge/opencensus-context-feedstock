@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python
-    - contextvars
+    - contextvars  # [py<=3.7]
 
 test:
   imports:
