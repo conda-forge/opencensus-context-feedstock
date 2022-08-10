@@ -1,7 +1,7 @@
 About opencensus-context
 ========================
 
-Home: https://github.com/census-instrumentation/opencensus-python
+Home: https://github.com/census-instrumentation/opencensus-python/tree/master/context/opencensus-context
 
 Package license: Apache-2.0
 
