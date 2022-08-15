@@ -1,7 +1,7 @@
 About opencensus-context
 ========================
 
-Home: https://github.com/census-instrumentation/opencensus-python
+Home: https://github.com/census-instrumentation/opencensus-python/tree/master/context/opencensus-context
 
 Package license: Apache-2.0
 
@@ -16,6 +16,8 @@ Documentation: https://github.com/census-instrumentation/opencensus-python/tree/
 The OpenCensus Runtime Context provides in-process context propagation.
 By default, thread local storage is used for Python 2.7, 3.4 and 3.5;
 contextvars is used for Python >= 3.6, which provides asyncio support.
+
+PyPI: [https://pypi.org/project/opencensus-context/](https://pypi.org/project/opencensus-context/)
 
 
 Current build status
@@ -291,4 +293,5 @@ Feedstock Maintainers
 =====================
 
 * [@basnijholt](https://github.com/basnijholt/)
+* [@sugatoray](https://github.com/sugatoray/)
 
