@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opencensus-context-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opencensus-context-{{ version }}.tar.gz
   sha256: a03108c3c10d8c80bb5ddf5c8a1f033161fa61972a9917f9b9b3a18517f0088c
 
 build:
-  number: 2
+  number: 3
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
   run:
     - python
     - contextvars  # [py<=3.7]
